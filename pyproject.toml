@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "worldcuppointscalculator"
+version = "0.1.0"
+description = "This programmed recreates the group standings from the 2022 Qatar World Cup using the JSON data provided by fixturedownload.com via https://fixturedownload.com/feed/json/fifa-world-cup-2022"
+authors = ["'Seyi Daniel <dexter_daniel@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "1.0.0"
+pydantic = "2.0.3"
+requests = "2.31.0"
+tenacity = "8.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
