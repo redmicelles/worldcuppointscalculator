@@ -11,3 +11,4 @@ This project relies on [Poetry v1.5.1](https://python-poetry.org/) for managing 
 2. [Pydantic v2.0.3](https://docs.pydantic.dev/2.0/api/main/) - Data Parsing and Validation
 3. [Requests v2.31.0](https://requests.readthedocs.io/en/latest/) - HTTP Library
 4. [tenacity v8.2.2](https://tenacity.readthedocs.io/en/latest/) - General Purpose Retrying Library
+5. [black](https://tenacity.readthedocs.io/en/latest/)- Code Formating 
